@@ -1,0 +1,44 @@
+{
+  "name": "curdlaiman",
+  "version": "1.0.0",
+  "description": "基于 Vue2 + Webpack + Element UI 的后台管理系统模板，集成通用 CURD 组件",
+  "scripts": {
+    "serve": "webpack serve --open --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "element-ui": "^2.15.14",
+    "lodash": "^4.17.21",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.4.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.4",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.16",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lanmai934/curdlaiman.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lanmai934/curdlaiman/issues"
+  },
+  "homepage": "https://github.com/Lanmai934/curdlaiman#readme"
+}

@@ -22,6 +22,18 @@ export default new Router({
             path: '/login',
             name: 'Login',
             component: () => import('../views/Login.vue')
+        },
+        {
+        path: '/RecursiveTableWrapper',
+        component: Layout,
+        children: [
+        {
+            path: '',
+            name: 'RecursiveTableWrapper',
+            component: () => import('@/views/RecursiveTableWrapper/index'),
+            meta: { title: '递归表格', icon: 'RecursiveTableWrapper' }
         }
+    ]
+  },
     ]
 })

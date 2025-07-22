@@ -12,9 +12,9 @@
             </template>
         </el-table-column>
     </el-table>
-    <el-pagination background layout="total, sizes, prev, pager, next, jumper" :total="total"
+    <!-- <el-pagination background layout="total, sizes, prev, pager, next, jumper" :total="total"
         :page-sizes="[10, 20, 50, 100]" :page-size.sync="pageSize" :current-page.sync="currentPage"
-        @size-change="handleSizeChange" @current-change="handleCurrentChange" />
+        @size-change="handleSizeChange" @current-change="handleCurrentChange" /> -->
 </template>
 
 <script>
